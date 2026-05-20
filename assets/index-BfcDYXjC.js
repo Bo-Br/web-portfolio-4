@@ -32,14 +32,11 @@
   {
     category: "Tools",
     items: [
-      "Git",
-      "GitHub",
-      "GitLab",
-      "Git Bash",
+      "GitHub / GitLab",
+      "Bash / Powershell",
       "VS Code",
-      "Wireshark",
-      "VMware",
-      "Oracle VirtualBox"
+      "Wireshark / Nmap",
+      "VMware / Oracle VirtualBox"
     ]
   }
 ,{category:"Personality",items:["Good communication","Team friendly","Ability for adaptation","Dynamic","Always on time","Critical thinking"]}],projects:[{tag:"Fullstack",title:"Reservation System",description:"A complete reservation system built with PHP and SQL for managing bookings.",link:"https://github.com/Bo-Br/Fullstack_Web_Project",linkText:"GitHub ↗"},{tag:"Python",title:"Password Generator",description:"A CLI-based tool for generating secure passwords with JSON storage capabilities.",link:"https://github.com/Bo-Br/Python-Password-Generator",linkText:"GitHub ↗"},{tag:"More",title:"Other Explorations",description:"Check out my GitHub for more projects and coding experiments.",link:"https://github.com/Bo-Br",linkText:"See more ↗"}],ai:["Google AI Studio","LLM (ChatGPT, Claude, Grok)","Local LLM's (Ollama, LMStudio)"],media:["DaVinci Resolve","OBS Studio","Audacity","RekordBox"],languages:[{label:"🇫🇷 French",level:"Native"},{label:"🇷🇺 Russian",level:"C2"},{label:"🇬🇧 English",level:"C1"}],goals:["Get an internship to deepen my understanding in IT","Dive deeper into my understanding of programming","Developing my skills and knowledge in Cybersecurity and Web Dev","Participate in projects involving teamwork"]},k=()=>{const{profile:o,about:n,skills:a,projects:r,ai:t,media:i,languages:s,goals:f}=I;document.getElementById("nav-logo").innerHTML=`${o.logoText}<span>.</span>`,document.getElementById("hero-title").innerHTML=`${o.heroTitle}<span>.</span>`,document.getElementById("hero-subtitle").textContent=o.heroSubtitle;const u=document.getElementById("profile-img");u.src=o.photoUrl,u.alt=o.name;const y=document.getElementById("about-text");y.innerHTML=n.map(e=>`<p>${e}</p>`).join("");const b=document.getElementById("skills-grid");b.innerHTML=a.map(e=>`
