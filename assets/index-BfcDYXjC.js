@@ -1,6 +1,6 @@
 (function(){const n=document.createElement("link").relList;if(n&&n.supports&&n.supports("modulepreload"))return;for(const t of document.querySelectorAll('link[rel="modulepreload"]'))r(t);new MutationObserver(t=>{for(const i of t)if(i.type==="childList")for(const s of i.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&r(s)}).observe(document,{childList:!0,subtree:!0});function a(t){const i={};return t.integrity&&(i.integrity=t.integrity),t.referrerPolicy&&(i.referrerPolicy=t.referrerPolicy),t.crossOrigin==="use-credentials"?i.credentials="include":t.crossOrigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function r(t){if(t.ep)return;t.ep=!0;const i=a(t);fetch(t.href,i)}})();const I={profile:{name:"Junior Developer",logoText:"BB",heroTitle:"Junior <br>WebDev <br>Admin <br>...",heroSubtitle:"Building fullstack websites, administrating networks, troubleshooting devices, and enjoying my work.",photoUrl:"https://www.dropbox.com/scl/fi/eljo8nnkmtjh0t3letap4/unnamed.jpg?rlkey=ehdmd32aj0ndft2ceapq73vfv&st=3paqzp9s&raw=1",email:"bogdanbraun4@gmail.com",githubUrl:"https://github.com/Bo-Br",linkedinUrl:"https://www.linkedin.com/in/bogdane-braoun-983a6039b/"},about:["I have a passion for coding since 13 years old, I started with visual programming on Construct 2/3, where I created a lot of small projects, a small amout of which I posted on itch.io.","This allowed me to understand basic programming logic.","Curious about Cybersecurity, networking, and troubleshooting, I explored a lot of Linux distributions such as linux Mint, Kali or Tails, and aquired some basic knowledge in troubleshooting computers.","Well, there's an update : since I started Web Dev in January 2026 I am beginning to enjoy it to a point where I am even thinking to maybe work in this field, instead of doing cybersecurity.","Update number two : since I started Linux and windows administration and troubleshooting, I am starting to really enjoy it, thinking about possibilities working as a System Admin","In parallel of Informational technologies, I have a lot of other interests such as music, magic tricks, and sport.",'I am now finishing my first year in an IT school "École IT", and I always search for new knowledge and opportunities !'],skills: [
   {
-    category: "Development, Backend & Marketing",
+    category: "Web Development",
     items: [
       "HTML / CSS",
       "JavaScript",
@@ -9,16 +9,10 @@
       "REST APIs & API Manipulation",
       "SQL / PHPMyAdmin",
       "CRUD Applications",
-      "Authentication Systems",
       "Bootstrap",
       "WordPress",
       "WooCommerce",
-      "Laragon / XAMPP",
-      "Responsive Web Design",
-      "Data Handling & Processing",
-      "SEO",
-      "Web Marketing",
-      "Google Ads"
+      "Laragon / XAMPP"
     ]
   },
 
